@@ -8,14 +8,13 @@ I had two main focuses for the extensibility of this work:
 
 1. Handling multiple file types. This would involve creating a new FileParser. At that point, it would make sense to:
 
-- Define the interface a parser is expected to implement.
-- Create an abstract parent class which specific parsers inherit from.
-- Create a way of distinguishing between file types (some piece of metadata on the file seems most sensible for this).
+   - Define the interface a parser is expected to implement.
+   - Create an abstract parent class which specific parsers inherit from.
+   - Create a way of distinguishing between file types (some piece of metadata on the file seems most sensible for this).
 
 2. Making it easy to add new fields. This would involve:
-
-- adding a new entry in the `FIELDS_TO_EXTRACT` Map, matching the type `FieldToExtract`
-- defining a method to extract that data and a method on the `Patient` class to set the values
+   - adding a new entry in the `FIELDS_TO_EXTRACT` Map, matching the type `FieldToExtract`
+   - defining a method to extract that data and a method on the `Patient` class to set the values
 
 ### Structural changes required
 
