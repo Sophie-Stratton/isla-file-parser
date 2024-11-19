@@ -1,0 +1,4 @@
+MSG|^~\&|SenderSystem|Location|ReceiverSystem|Location|20230502112233 ||DATA^TYPE|123456|P|2.5 
+EVT|TYPE|20230502112233 
+PRS|1|9876543210^^^Location^ID||Smith^John^A|||M|198001011234|
+DET|1|I|^^MainDepartment^101^Room 1|Common Cold 
